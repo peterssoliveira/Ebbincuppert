@@ -1,0 +1,55 @@
+Evolução do banco de dados:
+criei o diagrama
+materias----conteudos----------registro_estudos----revisao
+|           |_id               |_id                |_id
+|_id >>>>>>>|_materia_id >>>>>>|_conteudos_id >>>>>|_estudos_id
+|_nome      |_nome             |_data_inicio       |_data_revisao
+            |_nivel                                |_numero_revisao
+            |_inportancia                          |_realizado
+            |_tempo_estimado
+            |_ordem
+            |_categoria
+
+já preenchi a tabela de [materias]
+usando:
+ 
+INSERT INTO materias (nome) values ('Matematica'),
+('Física'),('Química'),('Biologia'),('Portugês'),
+('Redação'),('História'),('Geografia'),('Filosofia'),
+('Sociologia'),('Ingles'),('Espanhol'),('Atualidades');
+
+para não precisar inserir o id manualmete utilizei AUTOINCREMENT para o id durante a criação da tabela
+
+Fiz testes para o python começar efetivamente mexer no Banco de dados e poder preencher as outras tabelas automaticamente utilizando o JSON,
+criei as funções:
+1 - def buscar_id_materia(cursor, nome_materia):
+##busca a informação no banco de dados sobre qual o id da matéria relacionada
+
+2 - def inserir_conteudo(cursor, materia_id, nome, nivel=None, categoria=None, importancia=None, tempo_estimado=None, ordem=None):
+##simplesmente recebe informação e realoca no banco diretamente em conteudos
+
+3 - def percorrer_json(cursor, materia_id, dados, nivel=None, categoria=None, profundidade=0):def importar_materia(cursor, nome_materia, estrutura_json):
+##percorre no json organizando as classificações (o arquivo Json possúi gravações em diferentes modelos {dois} um que contém:
+
+Nível 1 - Fundamentos
+    Sistema de numeração | nível=Nível 1 - Fundamentos | categoria=None
+
+e outro que possúi:
+
+Nível 2 - Álgebra
+    Expressões Algébricas
+        Produtos notáveis | nível=Nível 2 - Álgebra | categoria=Expressões Algébricas
+(é possivel notar que ele mostra algebra, classificação=Expressões Algébricas, conteudo=Produtos notáveis)
+
+o meu problema circula nessa classificação, no primeiro caso ele preencheria apenas 'sistema de numeração' como nome do conteudo e não colocaria a parte de 'Fundamentos' em nenhum lugar, no segundo caso ele colocaria 'produtos notáveis' como nome do conteudo e a parte de classificação como 'Expressões Algébricas' mas do mesmo modo não colocaria a 'Algebra' em nenhum lugar. 
+Penso em criar mais uma coluna na aba matérias ou até mesmo mudar alguma já existente:
+
+conteudos
+|_id
+|_materia_id
+|_nome
+|_nivel      
+|_inportancia >>>>>>>> talvez excluir essa e trocar por subclassificação
+|_tempo_estimado >>>>> também questiono a nescessidade dessa coluna
+|_ordem
+|_categoria
