@@ -1,0 +1,32 @@
+Para entender melhor a base dos calculos e datas de resumo, dividi em tabelas para excel
+
+na aba registro:(
+Colunas:{
+
+[Matéria][Cód][Conteúdo novo][24h][7d][30d][90d][180d]
+
+}
+
+Colunas preenchidas:{
+
+[Português - Classes gramaticais][5][27/07/2026]28/07/2026][04/08/2026][03/09/2026][02/12/2026][31/05/2027]
+
+}
+)
+
+E na aba calendário:(
+
+Colunas:{
+
+[Data][Conteúdo novo][24h][7d][30d][90d][180d]
+
+}
+
+utilizando a fórmula:
+
+=SE.ERRO(ÍNDICE(registro!$A:$A; CORRESP($A2; registro!C:C; 0));" ")
+)
+
+A base foi muito bem estabelecida ela só não conta com a possibilidade de se classificar 2 matérias como conteúdo novo na mesma data no excel.
+
+fiz um teste no google sheets e funcionou muito bem, ao invés do índice posso utilizar procx evitando o uso do corresp encurtando a fórmula, também existindo o textjoin que me permite utilizar duas matérias no mesmo dia.
