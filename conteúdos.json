@@ -1,0 +1,842 @@
+{
+"Matemática": {
+
+    "Nível 1 - Fundamentos": [
+
+      "Sistema de numeração",
+
+      "Operações básicas",
+
+      "Potenciação",
+
+      "Radiciação",
+
+      "MMC e MDC",
+
+      "Divisibilidade",
+
+      "Frações",
+
+      "Números decimais",
+
+      "Razões e proporções",
+
+      "Regra de três simples",
+
+      "Regra de três composta",
+
+      "Porcentagem",
+
+      "Juros simples",
+
+      "Juros compostos",
+
+      "Notação científica",
+
+      "Ordem de grandeza",
+
+      "Conversão de unidades"
+
+    ],
+
+    "Nível 2 - Álgebra": {
+
+      "Expressões Algébricas": [
+
+        "Produtos notáveis",
+
+        "Fatoração",
+
+        "Frações algébricas",
+
+        "Equações do 1º grau",
+
+        "Sistemas lineares",
+
+        "Inequações",
+
+        "Valor absoluto (módulo)"
+
+      ],
+
+      "Funções": [
+
+        "Conceito de função",
+
+        "Domínio e imagem",
+
+        "Função afim",
+
+        "Função quadrática",
+
+        "Função modular",
+
+        "Função exponencial",
+
+        "Função logarítmica",
+
+        "Função composta",
+
+        "Função inversa"
+
+      ]
+
+    },
+
+    "Nível 3 - Geometria": {
+
+      "Geometria Plana": [
+
+        "Ângulos",
+
+        "Triângulos",
+
+        "Quadriláteros",
+
+        "Polígonos",
+
+        "Circunferência",
+
+        "Círculo",
+
+        "Áreas",
+
+        "Perímetros",
+
+        "Semelhança",
+
+        "Congruência",
+
+        "Teorema de Tales",
+
+        "Teorema de Pitágoras"
+
+      ],
+
+      "Trigonometria": [
+
+        "Razões trigonométricas",
+
+        "Ciclo trigonométrico",
+
+        "Identidades trigonométricas",
+
+        "Lei dos Senos",
+
+        "Lei dos Cossenos"
+
+      ],
+
+      "Geometria Espacial": [
+
+        "Prismas",
+
+        "Pirâmides",
+
+        "Cilindros",
+
+        "Cones",
+
+        "Esferas",
+
+        "Áreas",
+
+        "Volumes"
+
+      ],
+
+      "Geometria Analítica": [
+
+        "Plano cartesiano",
+
+        "Distância entre pontos",
+
+        "Ponto médio",
+
+        "Equação da reta",
+
+        "Circunferência",
+
+        "Inclinação",
+
+        "Paralelismo",
+
+        "Perpendicularidade"
+
+      ]
+
+    },
+
+    "Nível 4 - Estatística e Probabilidade": [
+
+      "Média",
+
+      "Moda",
+
+      "Mediana",
+
+      "Desvio padrão",
+
+      "Análise de gráficos",
+
+      "Tabelas",
+
+      "Probabilidade simples",
+
+      "Probabilidade condicional",
+
+      "Análise combinatória",
+
+      "Permutações",
+
+      "Arranjos",
+
+      "Combinações"
+
+    ],
+
+    "Nível 5 - Matemática Avançada": [
+
+      "Matrizes",
+
+      "Determinantes",
+
+      "Sistemas lineares (Gauss)",
+
+      "Sequências",
+
+      "Progressão Aritmética (PA)",
+
+      "Progressão Geométrica (PG)",
+
+      "Números complexos",
+
+      "Polinômios",
+
+      "Equações polinomiais"
+
+    ],
+
+    "Nível 6 - Cálculo Diferencial e Integral": [
+
+      "Limites",
+
+      "Continuidade",
+
+      "Derivadas",
+
+      "Regras de derivação",
+
+      "Aplicações da derivada",
+
+      "Máximos e mínimos",
+
+      "Taxas de variação",
+
+      "Integrais definidas",
+
+      "Integrais indefinidas",
+
+      "Área sob curvas",
+
+      "Teorema Fundamental do Cálculo",
+
+      "Introdução às Equações Diferenciais"
+
+    ]
+
+  },
+
+  "Física": {
+
+    "Mecânica": [
+
+      "Cinemática",
+
+      "Dinâmica",
+
+      "Leis de Newton",
+
+      "Trabalho",
+
+      "Energia",
+
+      "Potência",
+
+      "Impulso",
+
+      "Quantidade de movimento",
+
+      "Colisões",
+
+      "Gravitação",
+
+      "Hidrostática",
+
+      "Hidrodinâmica"
+
+    ],
+
+    "Termologia": [
+
+      "Temperatura",
+
+      "Dilatação térmica",
+
+      "Calorimetria",
+
+      "Mudanças de estado",
+
+      "Gases",
+
+      "Termodinâmica"
+
+    ],
+
+    "Ondulatória": [
+
+      "Ondas",
+
+      "Som",
+
+      "Interferência",
+
+      "Difração",
+
+      "Ressonância"
+
+    ],
+
+    "Óptica": [
+
+      "Reflexão",
+
+      "Refração",
+
+      "Espelhos",
+
+      "Lentes",
+
+      "Instrumentos ópticos"
+
+    ],
+
+    "Eletricidade": [
+
+      "Eletrostática",
+
+      "Campo elétrico",
+
+      "Potencial elétrico",
+
+      "Corrente elétrica",
+
+      "Resistores",
+
+      "Associação de resistores",
+
+      "Leis de Ohm",
+
+      "Potência elétrica",
+
+      "Circuitos elétricos",
+
+      "Magnetismo",
+
+      "Indução eletromagnética"
+
+    ],
+
+    "Física Moderna": [
+
+      "Radioatividade",
+
+      "Fissão nuclear",
+
+      "Fusão nuclear",
+
+      "Modelo atômico",
+
+      "Relatividade (noções)",
+
+      "Física quântica (noções)"
+
+    ]
+
+  },
+
+  "Química": {
+
+    "Química Geral": [
+
+      "Estrutura atômica",
+
+      "Tabela periódica",
+
+      "Ligações químicas",
+
+      "Geometria molecular",
+
+      "Polaridade",
+
+      "Forças intermoleculares"
+
+    ],
+
+    "Físico-Química": [
+
+      "Soluções",
+
+      "Concentração",
+
+      "Diluição",
+
+      "Termoquímica",
+
+      "Cinética química",
+
+      "Equilíbrio químico",
+
+      "Ácidos e bases",
+
+      "pH",
+
+      "Oxidação e redução",
+
+      "Eletroquímica"
+
+    ],
+
+    "Química Orgânica": [
+
+      "Cadeias carbônicas",
+
+      "Funções orgânicas",
+
+      "Isomeria",
+
+      "Reações orgânicas",
+
+      "Polímeros"
+
+    ],
+
+    "Química Ambiental": [
+
+      "Poluição",
+
+      "Tratamento da água",
+
+      "Ciclos biogeoquímicos",
+
+      "Sustentabilidade"
+
+    ]
+
+  },
+
+  "Biologia": {
+
+    "Citologia": [
+
+      "Células",
+
+      "Organelas",
+
+      "Membrana plasmática",
+
+      "Transporte celular"
+
+    ],
+
+    "Bioquímica": [
+
+      "Água",
+
+      "Sais minerais",
+
+      "Carboidratos",
+
+      "Lipídios",
+
+      "Proteínas",
+
+      "Vitaminas",
+
+      "Enzimas"
+
+    ],
+
+    "Genética": [
+
+      "Leis de Mendel",
+
+      "DNA",
+
+      "RNA",
+
+      "Biotecnologia",
+
+      "Engenharia genética"
+
+    ],
+
+    "Evolução": [
+
+      "Darwin",
+
+      "Lamarck",
+
+      "Seleção natural",
+
+      "Especiação"
+
+    ],
+
+    "Ecologia": [
+
+      "Cadeias alimentares",
+
+      "Ciclos biogeoquímicos",
+
+      "Biomas",
+
+      "Relações ecológicas",
+
+      "Impactos ambientais"
+
+    ],
+
+    "Fisiologia Humana": [
+
+      "Sistema digestório",
+
+      "Sistema respiratório",
+
+      "Sistema circulatório",
+
+      "Sistema nervoso",
+
+      "Sistema endócrino",
+
+      "Sistema excretor",
+
+      "Sistema reprodutor",
+
+      "Imunologia"
+
+    ],
+
+    "Botânica": [
+
+      "Tecidos vegetais",
+
+      "Fotossíntese",
+
+      "Hormônios vegetais"
+
+    ],
+
+    "Zoologia": [
+
+      "Invertebrados",
+
+      "Vertebrados"
+
+    ]
+
+  },
+
+  "Português": {
+
+    "Gramática": [
+
+      "Classes gramaticais",
+
+      "Sintaxe",
+
+      "Concordância",
+
+      "Regência",
+
+      "Crase",
+
+      "Colocação pronominal",
+
+      "Pontuação"
+
+    ],  "Redação": [
+
+    "Estrutura dissertativa-argumentativa",
+
+    "Competência 1",
+
+    "Competência 2",
+
+    "Competência 3",
+
+    "Competência 4",
+
+    "Competência 5",
+
+    "Projeto de texto",
+
+    "Repertório sociocultural",
+
+    "Argumentação",
+
+    "Proposta de intervenção",
+
+    "Conectivos",
+
+    "Planejamento",
+
+    "Revisão"
+
+  ], "Interpretação": [
+
+      "Tipos textuais",
+
+      "Gêneros textuais",
+
+      "Coesão",
+
+      "Coerência",
+
+      "Figuras de linguagem",
+
+      "Funções da linguagem"
+
+    ],
+
+    "Literatura": [
+
+      "Trovadorismo",
+
+      "Humanismo",
+
+      "Classicismo",
+
+      "Barroco",
+
+      "Arcadismo",
+
+      "Romantismo",
+
+      "Realismo",
+
+      "Naturalismo",
+
+      "Parnasianismo",
+
+      "Simbolismo",
+
+      "Pré-modernismo",
+
+      "Modernismo",
+
+      "Literatura contemporânea"
+
+    ]
+
+  },
+
+  "História": {
+
+    "História Geral": [
+
+      "Antiguidade",
+
+      "Idade Média",
+
+      "Idade Moderna",
+
+      "Idade Contemporânea",
+
+      "Revoluções",
+
+      "Guerras Mundiais",
+
+      "Guerra Fria"
+
+    ],
+
+    "História do Brasil": [
+
+      "Brasil Colônia",
+
+      "Brasil Império",
+
+      "Primeira República",
+
+      "Era Vargas",
+
+      "Ditadura Militar",
+
+      "Nova República"
+
+    ]
+
+  },
+
+  "Geografia": {
+    "Geografia Física": [
+
+      "Clima",
+
+      "Relevo",
+
+      "Hidrografia",
+
+      "Vegetação",
+
+      "Solos"
+
+    ],
+
+    "Geografia Humana": [
+
+      "População",
+
+      "Urbanização",
+
+      "Industrialização",
+
+      "Globalização",
+
+      "Agricultura",
+
+      "Energia",
+
+      "Geopolítica",
+
+      "Cartografia"
+
+    ]
+
+  },
+
+  "Filosofia": {
+	"Antiga":[
+    "Pré-socráticos",
+    "Sócrates",
+    "Platão",
+  "Aristóteles"],
+	"Medieval":[
+    "Filosofia Medieval",
+	"Teologia",
+	"Teologia oriental"],
+	"Moderna":[
+    "Filosofia Moderna",
+
+    "Iluminismo",
+
+    "Kant",
+
+    "Marx",
+
+    "Nietzsche",
+
+    "Existencialismo",
+
+    "Ética",
+
+    "Política"
+
+  ]},
+
+  "Sociologia": {
+	"Conceitos":[
+	
+    "Cultura",
+
+    "Socialização",
+
+    "Estado",
+
+    "Poder",
+
+    "Cidadania",
+
+    "Movimentos sociais",
+
+    "Trabalho",
+
+    "Desigualdade",
+
+    "Globalização"],
+	"Autores":[
+    "Durkheim",
+
+    "Weber",
+
+    "Marx",
+	"Thomas Hobbes",
+	"Adam Kahane"]
+  },
+
+  "Inglês": {
+	  "Inglês bases":[
+    "Interpretação de texto",
+
+    "Vocabulário",
+
+    "Tempos verbais"],
+		"Inglês intermediario":[
+    "Modal verbs",
+
+    "Voz passiva",
+
+    "Conectivos",
+
+    "Prefixos e sufixos",
+
+    "Cognatos e falsos cognatos"
+]
+  },
+
+  "Espanhol": {
+	"Espanhol basico":[
+    "Interpretação de texto",
+
+    "Vocabulário",
+
+    "Tempos verbais",
+
+    "Conectivos"
+]
+  },
+
+  "Atualidades": {
+	  "Politica":[
+
+    "Política brasileira",
+
+    "Política internacional",
+
+    "Economia"
+	],
+    "Clima":[
+	"Meio ambiente",
+
+    "Mudanças climáticas"
+],
+    "Tecnologia e direitos humanos":[
+	"Tecnologia",
+
+    "Inteligência Artificial",
+
+    "Saúde pública",
+
+    "Direitos Humanos",
+
+    "Diversidade",
+
+    "Cultura",
+
+    "Ciência"
+
+  ]
+}
+
+}
